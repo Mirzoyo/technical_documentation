@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,700;1,300;1,500;1,600&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Work+Sans:wght@100&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+aside {
+  border-right: 1px solid black;
+  width: 20%;
+  height: 100vh;
+  position: fixed;
+}
+aside > h1 {
+  padding: 15px;
+  text-align: center;
+}
+aside > a {
+  border-top: 1px solid black;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-decoration: none;
+  text-align: start;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: gray;
+}
+
+a:active {
+  color: black;
+}
+
+.burger_icon {
+  display: none;
+  font-size: 24pt;
+  padding: 10px;
+  margin: 10px;
+  float: right;
+  position: relative;
+}
+
+section {
+  width: 80%;
+  float: right;
+  padding: 25px;
+}
+
+#introduction > p {
+  font-size: 10pt;
+  margin: 10px;
+}
+#introduction > ul {
+  margin: 5px 50px;
+  font-size: 10pt;
+}
+
+#why > p {
+  font-size: 10pt;
+  margin: 10px;
+}
+#why > ul {
+  margin: 5px 50px;
+  font-size: 10pt;
+}
+#java_javascript > p {
+  font-size: 10pt;
+  margin: 10px;
+}
+#hello_world > p {
+  font-size: 10pt;
+  margin: 10px;
+}
+
+#variables > p {
+  font-size: 10pt;
+  margin: 10px;
+}
+#declaring > p {
+  font-size: 10pt;
+  margin: 10px;
+}
+#scope > p {
+  font-size: 10pt;
+  margin: 10px;
+}
+#global_variable > p {
+  font-size: 10pt;
+  margin: 10px;
+}
+
+#constant > p {
+  font-size: 10pt;
+  margin: 10px;
+}
+
+#data_types > p {
+  font-size: 10pt;
+  margin: 10px;
+}
+#data_types > ul {
+  margin: 5px 50px;
+  font-size: 10pt;
+}
+#data_types > ul > li {
+  margin: 5px 50px;
+  font-size: 10pt;
+}
+
+#if_else > p {
+  font-size: 10pt;
+  margin: 10px;
+}
+#while_statement > p {
+  font-size: 10pt;
+  margin: 10px;
+}
+#while_statement > ul {
+  margin: 5px 50px;
+  font-size: 10pt;
+}
+#function_decleration > p {
+  font-size: 10pt;
+  margin: 10px;
+}
+#function_decleration > ul {
+  margin: 5px 50px;
+  font-size: 10pt;
+}
+#reference > ul {
+  margin: 5px 50px;
+  font-size: 10pt;
+}
+
+.cont {
+  background-color: rgba(159, 159, 159, 0.537);
+  padding: 5px;
+  margin: 10px 0 5px 25px;
+  border-radius: 3px;
+}
+
+.cont > p {
+  font-size: 9pt;
+}
+
+@media only screen and (max-width: 1100px) {
+  aside {
+    display: none;
+  }
+  .burger_icon {
+    display: block;
+  }
+  section {
+    width: 100%;
+  }
+}
